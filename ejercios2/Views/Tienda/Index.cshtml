@@ -1,0 +1,120 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<h1 class="text-center" style="font-size: 35px; serif; color: #f1c232; text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6); letter-spacing: 2px;">
+    Adéntrate en el Mundo Mágico de Harry Potter
+</h1>
+<hr style="border-top: 4px dotted #9e6a3b;" />
+
+<body style="background-color: #382121f8; color: white; font-family: 'Copperplate Gothic', sans-serif; ">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner" style="border-radius: 25px">
+                        <div class="carousel-item active">
+                            <img src="~/Controllers/Imagenes/banner1.jpg" class="d-block w-100" alt="Harry Potter y la Piedra Filosofal">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Controllers/Imagenes/banner2.jpg" class="d-block w-100" alt="Hogwarts">
+                            <img src="~/Controllers/Imagenes/banner2.jpg" class="d-block w-100" alt="Hogwarts">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Controllers/Imagenes/banner3.jpg" class="d-block w-100" alt="Elenco principal">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="border-top: 4px dotted #9e6a3b;" />
+
+
+    <div class="row">
+        <div class="col-12 col-md-4 col-xl-4">
+            <h4 class="text-center" style="background: #5e3a2b; color: #f1c232; padding: 5px; border-radius: 6px;">Datos Importantes</h4>
+            <p>La saga de Harry Potter, basada en los libros de J.K. Rowling, consta de 8 películas estrenadas entre 2001 y 2011. La primera película, "Harry Potter y la Piedra Filosofal", fue un éxito mundial.</p>
+        </div>
+
+        <div class="col-12 col-md-4 col-xl-4">
+            <h4 class="text-center" style="background: #5e3a2b; color: #f1c232; padding: 5px; border-radius: 6px;">Personajes Principales</h4>
+            <ul>
+                <li>Harry Potter</li>
+                <li>Hermione Granger</li>
+                <li>Ron Weasley</li>
+                <li>Severus Snape</li>
+                <li>Albus Dumbledore</li>
+                <li>Lord Voldemort</li>
+            </ul>
+        </div>
+
+        <div class="col-12 col-md-4 col-xl-4">
+            <h4 class="text-center" style="background: #5e3a2b; color: #f1c232; padding: 5px; border-radius: 6px;">Curiosidades</h4>
+            <ul>
+                <li>La cicatriz de Harry fue aplicada más de 2000 veces durante el rodaje.</li>
+                <li>Daniel Radcliffe usó más de 160 pares de gafas en la saga.</li>
+                <li>El andén 9 ¾ en King's Cross se hizo famoso gracias a la saga.</li>
+                <li>J.K. Rowling reveló que el sombrero seleccionador casi puso a Harry en Slytherin.</li>
+            </ul>
+        </div>
+    </div>
+
+  
+    <div class="row mt-4">
+        <div class="col-12">
+            <h2 class="text-center" style="color: #f1c232;">Las Casas de Hogwarts</h2>
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th>Casa</th>
+                        <th>Fundador</th>
+                        <th>Características</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gryffindor</td>
+                        <td>Godric Gryffindor</td>
+                        <td>Valentía, coraje, determinación</td>
+                    </tr>
+                    <tr>
+                        <td>Slytherin</td>
+                        <td>Salazar Slytherin</td>
+                        <td>Astucia, ambición, liderazgo</td>
+                    </tr>
+                    <tr>
+                        <td>Ravenclaw</td>
+                        <td>Rowena Ravenclaw</td>
+                        <td>Inteligencia, sabiduría, creatividad</td>
+                    </tr>
+                    <tr>
+                        <td>Hufflepuff</td>
+                        <td>Helga Hufflepuff</td>
+                        <td>Lealtad, paciencia, dedicación</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <h2 class="text-center" style="color: #f1c232;">Historia de Harry Potter</h2>
+            <p style="text-align: justify; font-size: 18px;">La historia de Harry Potter comienza cuando un niño huérfano descubre que es un mago y es aceptado en el Colegio Hogwarts de Magia y Hechicería. A lo largo de su viaje, Harry descubre su conexión con el mago tenebroso Lord Voldemort, quien asesinó a sus padres. Con la ayuda de sus amigos Hermione Granger y Ron Weasley, enfrenta desafíos, resuelve misterios y lucha contra las fuerzas oscuras. Desde su primer año hasta la épica Batalla de Hogwarts, la historia de Harry Potter es una de valentía, amistad y magia.</p>
+        </div>
+    </div>
+
+    <h1 class="text-center" style="font-size: 30px; color: #f1c232;">¡Explora la magia de Harry Potter!</h1>
+</body>
